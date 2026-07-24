@@ -21,8 +21,8 @@ function Hero() {
           <a className="btn btn-primary" href="#projects">
             View Projects
           </a>
-          <a className="btn btn-secondary" href="/resume.pdf" download>
-            Download Resume
+          <a className="btn btn-secondary" href="#contact">
+            Contact Me
           </a>
         </div>
 

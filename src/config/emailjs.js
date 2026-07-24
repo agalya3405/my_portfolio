@@ -1,16 +1,7 @@
-// Paste your EmailJS Service ID here.
-// Example: service_xxxxxxx
-export const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID'
+const env = import.meta.env
 
-// Paste your EmailJS Template ID here.
-// Example: template_xxxxxxx
-export const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
+export const SERVICE_ID = env.VITE_EMAILJS_SERVICE_ID?.trim() ?? ''
+export const TEMPLATE_ID = env.VITE_EMAILJS_TEMPLATE_ID?.trim() ?? ''
+export const PUBLIC_KEY = env.VITE_EMAILJS_PUBLIC_KEY?.trim() ?? ''
 
-// Paste your EmailJS Public Key here.
-// Example: abcdefghijklmnop
-export const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY'
-
-export const isEmailJsConfigured =
-  !EMAILJS_SERVICE_ID.startsWith('YOUR_') &&
-  !EMAILJS_TEMPLATE_ID.startsWith('YOUR_') &&
-  !EMAILJS_PUBLIC_KEY.startsWith('YOUR_')
+export const isEmailJsConfigured = Boolean(SERVICE_ID && TEMPLATE_ID && PUBLIC_KEY)

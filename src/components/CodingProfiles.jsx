@@ -5,19 +5,19 @@ const profiles = [
   {
     name: 'LeetCode',
     description: 'Practice problem solving and algorithmic thinking through consistent coding challenges.',
-    url: 'YOUR_LEETCODE_URL',
+    url: 'https://leetcode.com/u/your_username/',
     Icon: LeetCodeIcon,
   },
   {
     name: 'HackerRank',
     description: 'Track skill growth across programming, data structures, and interview preparation.',
-    url: 'YOUR_HACKERRANK_URL',
+    url: 'https://www.hackerrank.com/profile/agalya_it23',
     Icon: HackerRankIcon,
   },
   {
     name: 'GitHub',
     description: 'Explore projects, experiments, and code samples that show practical development work.',
-    url: 'YOUR_GITHUB_URL',
+    url: 'https://github.com/agalya3405',
     Icon: GitHubIcon,
   },
 ]
@@ -38,7 +38,7 @@ function CodingProfiles() {
             </div>
             <h3>{name}</h3>
             <p>{description}</p>
-            <a className="profile-visit" href={url} target="_blank" rel="noreferrer">
+            <a className="profile-visit" href={url} target="_blank" rel="noopener noreferrer">
               Visit Profile
             </a>
           </article>

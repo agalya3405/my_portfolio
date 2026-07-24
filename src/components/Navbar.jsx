@@ -62,9 +62,6 @@ function Navbar() {
         ))}
       </nav>
 
-      <a className="nav-resume" href="/resume.pdf" target="_blank" rel="noreferrer">
-        Resume
-      </a>
     </header>
   )
 }

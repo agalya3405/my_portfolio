@@ -24,7 +24,12 @@ function Footer() {
         <a href="https://leetcode.com/u/agalya5566/" target="_blank" rel="noreferrer" aria-label="LeetCode">
           <LeetCodeIcon />
         </a>
-        <a href="YOUR_HACKERRANK_URL" target="_blank" rel="noreferrer" aria-label="HackerRank">
+        <a
+          href="https://www.hackerrank.com/profile/agalya_it23"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="HackerRank"
+        >
           <HackerRankIcon />
         </a>
         <a href="mailto:agalya5566@gmail.com" aria-label="Email">
