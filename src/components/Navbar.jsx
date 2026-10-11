@@ -6,8 +6,8 @@ const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Coding Profiles', href: '#coding-profiles' },
   { label: 'Certifications', href: '#certifications' },
+  { label: 'Education', href: '#education' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -43,13 +43,15 @@ function Navbar() {
         type="button"
         onClick={() => setMobileOpen((open) => !open)}
         aria-label="Toggle menu"
+        aria-expanded={mobileOpen}
+        aria-controls="primary-navigation"
       >
         <span />
         <span />
         <span />
       </button>
 
-      <nav className={`nav-links ${mobileOpen ? 'open' : ''}`}>
+      <nav id="primary-navigation" className={`nav-links ${mobileOpen ? 'open' : ''}`} aria-label="Primary navigation">
         {navItems.map((item) => (
           <a
             key={item.href}

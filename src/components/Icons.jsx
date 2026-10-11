@@ -61,13 +61,3 @@ export function EmailIcon() {
   )
 }
 
-export function CodingIcon() {
-  return (
-    <IconBase label="Coding profiles icon">
-      <path
-        fill="currentColor"
-        d="M9.2 7.4 4.6 12l4.6 4.6-1.4 1.4L1.8 12l6.6-6.6 0.8 0Zm5.6 0 1.4 1.4-4.6 4.6 4.6 4.6-1.4 1.4L8.2 12l6.6-6.6Z"
-      />
-    </IconBase>
-  )
-}

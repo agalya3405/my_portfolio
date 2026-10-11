@@ -2,20 +2,24 @@ import '../styles.css'
 
 const groups = [
   {
-    title: 'Languages',
-    items: ['C', 'C++', 'Java', 'JavaScript'],
+    title: 'Programming',
+    items: ['Python', 'Java', 'C++'],
   },
   {
-    title: 'Frontend',
-    items: ['HTML', 'CSS', 'React', 'Tailwind CSS'],
+    title: 'Generative AI (Basic)',
+    items: ['LLMs', 'Prompt Engineering'],
   },
   {
-    title: 'Backend',
-    items: ['Node.js', 'Express'],
+    title: 'Analytical',
+    items: ['Problem Solving', 'Data Structures & Algorithms', 'Structured Data Handling'],
   },
   {
-    title: 'Database',
-    items: ['MongoDB', 'MySQL'],
+    title: 'Data & Databases',
+    items: ['SQL', 'MySQL', 'PostgreSQL', 'Relational Database Design', 'DBMS'],
+  },
+  {
+    title: 'Development',
+    items: ['Spring Boot', 'REST APIs', 'PHP', 'React.js', 'HTML5', 'CSS3', 'JavaScript'],
   },
   {
     title: 'Tools',

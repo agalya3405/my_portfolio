@@ -112,10 +112,11 @@ function Contact() {
         <div className="glass-card contact-side">
           <h3>Get in touch</h3>
           <p>
-            Open to internship opportunities, collaborations, and exciting frontend/backend work.
+            Open to Gen AI Specialist opportunities, internships, collaborations, and full-stack development work.
           </p>
           <div className="contact-links">
             <a href="mailto:agalya5566@gmail.com">agalya5566@gmail.com</a>
+            <a href="tel:9042608279">9042608279</a>
           </div>
         </div>
       </div>

@@ -5,21 +5,23 @@ function Hero() {
     <section className="hero-section" id="home">
       <div className="hero-copy">
         <span className="hero-badge">OPEN TO INTERNSHIPS</span>
-        <p className="eyebrow">Software Developer | Problem Solver | DSA Enthusiast</p>
-        <h1>Hi, I&apos;m AGALYA S</h1>
+        <p className="eyebrow">B.Tech IT Student</p>
+        <h1>B.Tech IT Student | Software Developer | Python &amp; Full-Stack Enthusiast</h1>
         <p className="hero-text">
-          Information Technology undergraduate passionate about software development,
-          problem solving, and building efficient web applications. I enjoy
-          transforming ideas into reliable software using modern technologies.
+          I build data-driven applications with Python, SQL databases, REST APIs, and modern
+          web technologies, with a strong focus on problem solving and practical software development.
         </p>
 
         <div className="hero-meta-line">
-          <span>CGPA: 8.09</span>
+          <span>CGPA: 8.11/10</span>
         </div>
 
         <div className="hero-actions">
           <a className="btn btn-primary" href="#projects">
             View Projects
+          </a>
+          <a className="btn btn-secondary" href="/resume/Agalya-S-Resume.pdf" download>
+            Download Resume
           </a>
           <a className="btn btn-secondary" href="#contact">
             Contact Me
@@ -41,8 +43,8 @@ function Hero() {
         </div>
 
         <div className="hero-highlights" aria-label="Key highlights">
-          <span>✔ 300+ DSA Problems Solved</span>
-          <span>✔ React Projects</span>
+          <span>✔ Python foundation</span>
+          <span>✔ SQL &amp; REST APIs</span>
           <span>✔ NPTEL Elite Certified</span>
           <span>✔ Special Lab Award Recipient</span>
         </div>

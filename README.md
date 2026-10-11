@@ -4,7 +4,7 @@ Personal portfolio website for Agalya S, built with React and Vite.
 
 ## About
 
-This portfolio highlights my resume, projects, coding profiles, certifications, and contact details in a clean recruiter-friendly format.
+This portfolio highlights my resume, projects, certifications, education, and contact details in a clean recruiter-friendly format.
 
 ## Resume
 
@@ -13,9 +13,9 @@ The downloadable resume is available in the site header and hero section.
 ## Highlights
 
 - Information Technology undergraduate
-- CGPA: 8.09
-- Software development and problem-solving focus
-- React, Java, C++, PHP, MySQL, and MongoDB experience
+- CGPA: 8.11/10
+- Python, SQL, REST APIs, and full-stack development focus
+- React, Java, C++, PHP, MySQL, and PostgreSQL experience
 
 ## Running Locally
 

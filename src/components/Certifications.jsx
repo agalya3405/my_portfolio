@@ -2,12 +2,16 @@ import '../styles.css'
 
 const certs = [
   {
-    title: 'The Joy of Computing using Python',
-    detail: 'NPTEL Elite Certification • 86%',
+    title: 'NPTEL Elite Certification',
+    detail: 'The Joy of Computing Using Python · 86%',
   },
   {
-    title: 'Special Lab Achievement',
-    detail: 'Recognized for supporting 21,919 learners in NPTEL.',
+    title: 'Special Lab Award',
+    detail: 'Awarded among 21,919 learners.',
+  },
+  {
+    title: 'Problem Solving',
+    detail: 'Regular practice on LeetCode and HackerRank in Java and C++; participated in coding contests.',
   },
 ]
 

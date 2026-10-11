@@ -5,34 +5,29 @@ function About() {
     <section className="section" id="about">
       <div className="section-heading">
         <p className="eyebrow">About</p>
-        <h2>Driven by curiosity, quality, and problem solving.</h2>
+        <h2>Analytical thinking grounded in practical development.</h2>
       </div>
 
       <div className="about-grid">
         <article className="glass-card about-card">
-          <h3>Education</h3>
+          <h3>Profile</h3>
           <p>
-            B.Tech in Information Technology from Bannari Amman Institute of
-            Technology, with strong academic performance and a growing passion
-            for software engineering.
+            B.Tech Information Technology undergraduate with a Python foundation
+            (NPTEL Elite certified, 86%), strong problem-solving skills, and
+            hands-on experience building data-driven applications with SQL
+            databases and REST APIs.
           </p>
         </article>
 
         <article className="glass-card about-card">
-          <h3>What I enjoy</h3>
+          <h3>Relevant strengths</h3>
           <p>
-            I enjoy building backend logic, improving user experience, and
-            solving real-world problems through thoughtful code and design.
+            Built quiz-evaluation logic covering answer submission, score
+            calculation, and answer review. Basic knowledge of Large Language
+            Models and prompt engineering.
           </p>
         </article>
 
-        <article className="glass-card about-card">
-          <h3>Strengths</h3>
-          <p>
-            Problem solving, clean UI thinking, consistency, and the ability to
-            learn quickly while working on meaningful projects.
-          </p>
-        </article>
       </div>
     </section>
   )
